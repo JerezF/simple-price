@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+
+	--cian: hsl(179, 62%, 43%);
+	--amarillo-Fuerte: hsl(71, 73%, 54%);
+	--grisClaro: hsl(204, 43%, 93%);
+	--azulGris: hsl(218, 22%, 67%);
+}
+
+
+body {
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.container {
+	margin: 5rem;
+}
+
+/* caja blanca*/
+.header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	/*background-color: rgb(255, 255, 255);*/
+	padding: 50px;
+}
+
+.header__title {
+	color: var(--cian);
+	padding-bottom: 10px;
+}
+
+.header__subtitle {
+	font-size: 20px;
+	color: var(--amarillo-Fuerte);
+	padding-bottom: 15px;
+}
+
+.header__text {
+	color: var(--azulGris);
+}
+
+/* price */
+
+.price {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 50px;
+	color: white;
+
+	background-color: var(--cian);
+}
+
+.price__title {
+	padding-bottom: 20px;
+}
+
+.price__subtitle {
+	color: inherit;
+	font-weight: 800;
+	font-size: 30px;
+}
+.span {
+	font-weight: inhe
+	color: var(--azulGris);
+	font-family: italic;
+}
+
+.price__btn {
+	border-style: none;
+	background: var(--amarillo-Fuerte);
+}
+
+
+
+/* us */
+
+.us {
+	padding: 50px;
+}
+
